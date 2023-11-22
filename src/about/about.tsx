@@ -1,21 +1,18 @@
 import { Container, Typography, createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material'
 import '../App.css'
-import ProjectCard from '../../components/project.tsx'
+import ProjectCard from '../../components/projectCard.tsx'
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
-import ReactDOM from 'react-dom/client';
-import React from 'react';
 
-
-const theme = responsiveFontSizes(createTheme({
-palette: {
-    primary: { main: '#3a3542' },
-    secondary: { main: '#3D4235' },
-}
-}));
-
-ReactDOM.createRoot(document.getElementById("root")!).render(
-    <React.StrictMode>
-        <ThemeProvider theme={theme}>
+export default function About() {
+    const theme = responsiveFontSizes(createTheme({
+        palette: {
+            primary: { main: '#3a3542' },
+            secondary: { main: '#3D4235' },
+        }
+    }));
+    
+    return (
+        <ThemeProvider theme = { theme } >
             <Container style={{justifyContent: "center", padding: "10px", flexDirection: 'column', display: 'flex',}}>
                 <Typography variant={"h1"} fontWeight={"300"} flexShrink={1} gutterBottom>
                     Evan Janakievski
@@ -64,5 +61,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
                 Click on the Vite and React logos to learn more
             </p>
         </ThemeProvider>
-    </React.StrictMode>,
-)
+    )
+}

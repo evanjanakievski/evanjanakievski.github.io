@@ -16,7 +16,9 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         about: resolve(__dirname, 'about', 'index.html'),
-        //project: resolve(__dirname, 'projects', 'index.html')
+        project1: resolve(__dirname, 'project1', 'index.html'),
+        project2: resolve(__dirname, 'project2', 'index.html'),
+        project3: resolve(__dirname, 'project3', 'index.html'),
       }
     }
   }
