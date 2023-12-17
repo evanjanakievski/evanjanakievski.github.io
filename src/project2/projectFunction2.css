@@ -1,19 +1,19 @@
 #root {
-  max-width: false;
-  margin: 0 auto;
-  text-align: center;
-  flex: 1;
-  justify-content: center;
+    max-width: false;
+    margin: 0 auto;
+    text-align: center;
+    flex: 1;
+    justify-content: center;
 }
 
 @media (max-width:500px){
   .root {
     padding: 0;
-}
+  }
 
 }
 @media (min-width:850px){
   .root {
     padding: 2rem;
-}
+  }
 }

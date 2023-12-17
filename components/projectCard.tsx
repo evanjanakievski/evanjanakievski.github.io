@@ -4,6 +4,7 @@ export interface ProjectCardProps extends CardProps {
     name?: string;
     img?: string;
     shortDesc?: string;
+    link?: string;
 }
 
 const StyledCard = styled(Card)`
@@ -21,13 +22,13 @@ const StyledCard = styled(Card)`
 `;
 
 export default function ProjectCard(props: ProjectCardProps) {
-    const { name, img, shortDesc } = props;
+    const { name, img, shortDesc, link } = props;
     const theme = useTheme();
 
     return (
         <StyledCard style={{ backgroundColor: theme.palette.secondary.main}}>
-            <CardActionArea href={`/projects${props.name}`}>
-                <CardMedia component={"img"} image={`../images/${img}`} width={100} />
+            <CardActionArea href={`${link}`}>
+                <CardMedia component={"img"} src={`${img}`} width={100} />
                 <CardContent>
                     <Typography variant={'h6'} component={'div'}>
                         {name}

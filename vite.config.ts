@@ -14,11 +14,12 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        about: resolve(__dirname, 'about', 'index.html'),
-        project1: resolve(__dirname, 'project1', 'index.html'),
-        project2: resolve(__dirname, 'project2', 'index.html'),
-        project3: resolve(__dirname, 'project3', 'index.html'),
+        main: resolve(__dirname, root, 'index.html'),
+        project1: resolve(__dirname, root, 'project1/index.html'),
+        project2: resolve(__dirname, root, 'project2/index.html'),
+        project3: resolve(__dirname, root, 'project3/index.html'),
+        projects: resolve(__dirname, root, 'projects/index.html'),
+        contact: resolve(__dirname, root, 'contact/index.html')
       }
     }
   }
