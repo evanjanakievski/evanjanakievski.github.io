@@ -6,6 +6,24 @@ interface Props {
     children?: ReactNode
 }
 
+// Augment the palette to include an ochre color
+declare module '@mui/material/styles' {
+    interface Palette {
+      buttonColor: Palette['primary'];
+    }
+  
+    interface PaletteOptions {
+      buttonColor?: PaletteOptions['primary'];
+    }
+  }
+  
+  // Update the Button's color options to include an ochre option
+  declare module '@mui/material/Button' {
+    interface ButtonPropsColorOverrides {
+      buttonColor: true;
+    }
+  }
+
 const theme = responsiveFontSizes(createTheme({
     palette: {
         background: {
@@ -16,6 +34,12 @@ const theme = responsiveFontSizes(createTheme({
         },
         primary: { main: '#393d3a' },
         secondary: { main: '#3f5843' },
+        buttonColor: { main: '#FFFFFF'},
+    },
+    typography: {
+        button: {
+            textTransform: 'none'
+        }
     }
 }));
 

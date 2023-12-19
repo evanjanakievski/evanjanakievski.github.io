@@ -1,16 +1,14 @@
 import { Container, Typography } from '@mui/material';
 import CustomStyles from '../../components/CustomStyles.tsx';
-import FixedImage from '../../components/FixedImage.tsx'
-import './projectFunction3.css'
+import './projectFunction2.css'
 
-export default function Project3() {
+export default function Project2() {
     return (
         <CustomStyles>
-            <FixedImage link={'/images/blueprint-backdrop.jpg'}/>
             <Container maxWidth={"md"} style={{backgroundColor: '#403e3b', justifyContent: "center", minHeight: '100vh'}}>
                 <Container style={{justifyContent: "center", padding: "10px"}}>
                     <Typography variant={"h1"} align={'center'} fontWeight={"300"} gutterBottom>
-                        Larva Identifier
+                        LEGO EV3 Prosthetic Hand
                     </Typography>
                 </Container>
                 <Container style={{minHeight: '15vh',}}/>

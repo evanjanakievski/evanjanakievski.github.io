@@ -1,13 +1,13 @@
-import { Container, Typography } from '@mui/material'
+import { Container, Typography, Button, Stack } from '@mui/material'
 import ProjectCard from '../../components/projectCard.tsx'
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
-import CustomStyles from '../../components/CustomStyles.tsx'
-import FixedImage from '../../components/FixedImage.tsx'
+import CustomStyles from '../../components/CustomStyles.tsx';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailIcon from '@mui/icons-material/Mail';
 
 export default function About() {
     return (
         <CustomStyles>
-            <FixedImage link={'/images/blueprint-backdrop.jpg'}/>
             <Container maxWidth={"md"} style={{backgroundColor: '#403e3b', justifyContent: "center"}}>
                 <Container style={{justifyContent: "center", padding: "10px", flexDirection: 'column', display: 'flex'}}>
                     <Typography variant={"h1"} fontWeight={"300"} flexShrink={1} gutterBottom>
@@ -17,8 +17,8 @@ export default function About() {
                 <Container style={{minHeight: '10vh',}}/>
                 <Typography variant={"h2"} gutterBottom>About</Typography>
                 <Typography align={"justify"} gutterBottom>
-                    I'm Evan, currently a student at the University of Waterloo, majoring in Mechatronics Engineering.
-                    It was important to me to have an education with a strong interdisciplinary didactic program combined 
+                    I'm Evan Janakievski, currently a student at the University of Waterloo, majoring in Mechatronics Engineering.
+                    It was important to me to have an education with a strong interdisciplinary, didactic program combined 
                     with hands-on learning and it is why I selected the University of Waterloo, along with its renowned 
                     co-op program. As a first-year student, I understand that I have a lot to learn, but I believe that 
                     my curriculum and extracurriculars will prepare me to be an asset in any position I hold. 
@@ -28,8 +28,8 @@ export default function About() {
                     Mechanical design, artificial intelligence, robotics, and automation captivate my interest. At uWaterloo
                     I joined a design team called Waterloo Aerial Robotics Group as an opportunity to apply  
                     the mechanical design strategies I have learned in class. An interest in design teams came from my participation 
-                    on my high school's First Robotics Competition team, I gained experience in many areas of the 
-                    engineering process through the mechanical and electrical subteams helping fuel my interest in engineering.
+                    on my high school's First Robotics Competition team, where I gained experience in many areas of the 
+                    engineering process through the mechanical and electrical subteams.
                 </Typography>
                 <Typography align={"justify"} gutterBottom>
                     During high school, I gained practical experience in web design while creating and managing
@@ -38,14 +38,11 @@ export default function About() {
                     and a custom database.
                 </Typography>
                 <Typography align={"justify"} gutterBottom>
-                    Currently, I like to pursue personal projects to develop hands-on skills. These projects include
-                    many disciplines including mechanical design, circuits, and programming. Developing the fundamentals for these skills
+                    While I am not focusing on school, I like to pursue personal projects to develop hands-on skills. These projects include
+                    many disciplines such as: mechanical design, circuits, and programming. Developing the fundamentals for these skills
                     will allow me to be successful in any position I am placed.
                 </Typography>
                 <Container style={{minHeight: '12vh',}}/>
-                <Container>
-
-                </Container>
                 <Container maxWidth={"md"}>
                     <Typography variant={"h2"} fontWeight={"300"} flexShrink={1} gutterBottom>
                         Featured Projects
@@ -61,6 +58,17 @@ export default function About() {
                             <ProjectCard name={"Robotic Arm"} shortDesc={"built and printed an arm"} img={"/images/robotic-arm.jpg"} link={"/project3/"}/>
                         </Grid>
                     </Grid>
+                </Container>
+                <Container style={{minHeight: '8vh',}}/>
+                <Container style={{justifyContent: "center", width: "350px"}}>
+                    <Stack spacing={0.25}>
+                        <Button size={'large'} startIcon={<LinkedInIcon/>} color={'buttonColor'} target={'_blank'} href={'https://linkedin.com/in/evan-janakievski'}>
+                            Evan Janakievski
+                        </Button>
+                        <Button size={'large'} startIcon={<MailIcon/>} color={'buttonColor'} target={'_blank'} href={'mailto:evanjanakievski@gmail.com'}>
+                            evanjanakievski@gmail.com
+                        </Button>
+                    </Stack>
                 </Container>
             </Container>
         </CustomStyles>

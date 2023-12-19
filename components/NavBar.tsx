@@ -20,15 +20,15 @@ const pages: Pages[] = [
         subMenu: [
             {
                 name: 'Robotic Arm',
-                href: '/project1/'
+                href: '/roboticArm/'
             },
             {
-                name: 'Prosthetic',
-                href: '/project2/'
+                name: 'Prosthetic Hand',
+                href: '/legoProstheticHand/'
             },
             {
                 name: 'Larva Identifier',
-                href: '/project3/'
+                href: '/larvaIdentifier/'
             },
         ]
     },

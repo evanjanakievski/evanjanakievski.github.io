@@ -15,9 +15,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, root, 'index.html'),
-        project1: resolve(__dirname, root, 'project1/index.html'),
-        project2: resolve(__dirname, root, 'project2/index.html'),
-        project3: resolve(__dirname, root, 'project3/index.html'),
+        roboticArm: resolve(__dirname, root, 'roboticArm/index.html'),
+        legoProstheticHand: resolve(__dirname, root, 'legoProstheticHand/index.html'),
+        larvaIdentifier: resolve(__dirname, root, 'larvaIdentifier/index.html'),
         projects: resolve(__dirname, root, 'projects/index.html'),
         contact: resolve(__dirname, root, 'contact/index.html')
       }

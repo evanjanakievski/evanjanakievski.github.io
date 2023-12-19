@@ -1,39 +1,37 @@
-import { Container, Typography } from '@mui/material'
-import ProjectCard from '../../components/projectCard.tsx'
-import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import { Container, Typography, Button, Stack } from '@mui/material'
 import CustomStyles from '../../components/CustomStyles.tsx'
-import FixedImage from '../../components/FixedImage.tsx'
 import './contact.css'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailIcon from '@mui/icons-material/Mail';
 
 export default function Contact() {
     return (
         <CustomStyles>
-            <FixedImage link={'/images/blueprint-backdrop.jpg'}/>
             <Container maxWidth={"md"} style={{backgroundColor: '#403e3b', justifyContent: "center", minHeight: '100vh'}}>
                 <Container style={{justifyContent: "center", padding: "10px"}}>
                     <Typography variant={"h1"} align={'center'} fontWeight={"300"} gutterBottom>
                         Contact
                     </Typography>
+                    <Container style={{minHeight: '10vh',}}/>
                     <Typography align={'justify'} gutterBottom>
-                        Projects have offered me many opportunities to learn more about various areas of engineering, 
-                        programming, and technology. These projects have spanned across high school and now into university. 
-                        While being a member of a design team in university, I have taken on multiple projects to contribute 
-                        to the overall design. Striving to learn more about a variety of topics, my goal is to challenge myself 
-                        with each project I pursue.
+                        I am studying at the University of Waterloo, but I am from the United States. I have dual citizenship 
+                        and I am open to working throughout North America. My next co-op term is May 2024 - August 2024. Thank 
+                        you for looking at my portfolio.
+                    </Typography>
+                    <Container style={{minHeight: '10vh',}}/>
+                    <Typography align={'center'} gutterBottom>
+                        I am able to be contacted through the two following links:
                     </Typography>
                 </Container>
-                <Container maxWidth={"md"}>
-                    <Grid container spacing={3} justifyContent={"center"}>
-                        <Grid xs={8} md={4}>
-                            <ProjectCard name={"Robotic Arm"} shortDesc={"Sept. 2023 - Present"} img={"/images/robotic-arm.jpg"} link={"/project1/"}/>
-                        </Grid>
-                        <Grid xs={8} md={4}>
-                            <ProjectCard name={"LEGO Prosthetic Hand"} shortDesc={"Oct. 2023 - Nov. 2023"} img={"/images/robotic-arm.jpg"} link={"/project2/"}/>
-                        </Grid>
-                        <Grid xs={8} md={4}>
-                            <ProjectCard name={"Larva Identifier"} shortDesc={"Apr. 2022 - Feb. 2023"} img={"/images/robotic-arm.jpg"} link={"/project3/"}/>
-                        </Grid>
-                    </Grid>
+                <Container style={{justifyContent: "center", width: "350px"}}>
+                    <Stack spacing={2}>
+                        <Button size={'large'} startIcon={<LinkedInIcon/>} color={'buttonColor'} target={'_blank'} href={'https://linkedin.com/in/evan-janakievski'}>
+                            Evan Janakievski
+                        </Button>
+                        <Button size={'large'} startIcon={<MailIcon/>} color={'buttonColor'} target={'_blank'} href={'mailto:evanjanakievski@gmail.com'}>
+                            evanjanakievski@gmail.com
+                        </Button>
+                    </Stack>
                 </Container>
             </Container>
         </CustomStyles>
