@@ -14,17 +14,17 @@ export default function Contact() {
                     </Typography>
                     <Container style={{minHeight: '10vh',}}/>
                     <Typography align={'justify'} gutterBottom>
-                        I am studying at the University of Waterloo, but I am from the United States. I have dual citizenship 
-                        and I am open to working throughout North America. My next co-op term is May 2024 - August 2024. Thank 
-                        you for looking at my portfolio.
+                        I am studying at the University of Waterloo and part of the co-op program which means I am 
+                        constanly looking for another opportunity to grow and learn. I have dual citizenship, so I am 
+                        authorized to work in both the United States and Canada. Thank you for taking a look at my portfolio!
                     </Typography>
                     <Container style={{minHeight: '10vh',}}/>
                     <Typography align={'center'} gutterBottom>
-                        I am able to be contacted through the two following links:
+                        If you want to add me on LinkedIn or email me, the following links will help you out:
                     </Typography>
                 </Container>
                 <Container style={{justifyContent: "center", width: "350px"}}>
-                    <Stack spacing={2}>
+                    <Stack spacing={.25}>
                         <Button size={'large'} startIcon={<LinkedInIcon/>} color={'buttonColor'} target={'_blank'} href={'https://linkedin.com/in/evan-janakievski'}>
                             Evan Janakievski
                         </Button>
