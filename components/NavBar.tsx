@@ -73,17 +73,17 @@ function NavBarButton ({ name, href, subMenu }: Pages) {
                 {name}
             </Link>    
             }
-            {name == 'Projects' &&
-                <Collapse in={(subMenu?.length ?? 0) > 0 && hover} style={{ position: 'absolute', marginTop: theme.spacing(0.5)}}>
-                    <List style={{overflow: 'hidden', backgroundColor: theme.palette.secondary.main, borderRadius: 4, minWidth: 150}} dense>
-                        {subMenu?.map((project) => (
-                            <ListItemButton key={project.name} {...project} href={`${project.href}`}>
-                            <Typography textAlign="center">{project.name}</Typography>
-                            </ListItemButton>
-                        ))}
-                    </List>
-                </Collapse>
-            }
+            {/* // {name == 'Projects' &&
+            //     <Collapse in={(subMenu?.length ?? 0) > 0 && hover} style={{ position: 'absolute', marginTop: theme.spacing(0.5)}}>
+            //         <List style={{overflow: 'hidden', backgroundColor: theme.palette.secondary.main, borderRadius: 4, minWidth: 150}} dense>
+            //             {subMenu?.map((project) => (
+            //                 <ListItemButton key={project.name} {...project} href={`${project.href}`}>
+            //                 <Typography textAlign="center">{project.name}</Typography>
+            //                 </ListItemButton>
+            //             ))}
+            //         </List>
+            //     </Collapse>
+            // } */}
         </div>
     )
 }
@@ -111,19 +111,19 @@ function NavBar() {
                 sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
-                fontFamily: 'monospace',
+                fontFamily: 'Arial',
                 fontWeight: 700,
                 letterSpacing: '.3rem',
                 color: 'inherit',
                 textDecoration: 'none',
                 }}
             >
-                Evan J
+                Evan Janakievski
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                 <IconButton
                 size="large"
-                aria-label="account of current user"
+                aria-label="pages"
                 aria-controls="menu-appbar"
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
@@ -166,14 +166,15 @@ function NavBar() {
                 mr: 2,
                 display: { xs: 'flex', md: 'none' },
                 flexGrow: 1,
-                fontFamily: 'monospace',
+                fontFamily: 'Arial',
                 fontWeight: 700,
                 letterSpacing: '.3rem',
                 color: 'inherit',
                 textDecoration: 'none',
+                justifyContent: { xs: 'flex-end', md: 'none'},
                 }}
             >
-                Evan J
+                EJ
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                 {pages.map((page) => <NavBarButton key={page.href} {...page} />)}

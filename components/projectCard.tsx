@@ -30,10 +30,10 @@ export default function ProjectCard(props: ProjectCardProps) {
             <CardActionArea href={`${link}`}>
                 <CardMedia component={"img"} src={`${img}`} width={100} />
                 <CardContent>
-                    <Typography variant={'h6'} component={'div'}>
+                    <Typography variant={'h6'} component={'div'} color={"#FFFFFF"}>
                         {name}
                     </Typography>
-                    <Typography variant={'body1'}>
+                    <Typography variant={'body1'} color={"#FFFFFF"}>
                         {shortDesc}
                     </Typography>
                 </CardContent>

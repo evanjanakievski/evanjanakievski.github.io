@@ -7,7 +7,7 @@ import MailIcon from '@mui/icons-material/Mail';
 export default function Contact() {
     return (
         <CustomStyles>
-            <Container maxWidth={"md"} style={{backgroundColor: '#403e3b', justifyContent: "center", minHeight: '100vh'}}>
+            <Container maxWidth={"md"} style={{justifyContent: "center", minHeight: '100vh'}}>
                 <Container style={{justifyContent: "center", padding: "10px"}}>
                     <Typography variant={"h1"} align={'center'} fontWeight={"300"} gutterBottom>
                         Contact

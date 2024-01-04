@@ -27,14 +27,14 @@ declare module '@mui/material/styles' {
 const theme = responsiveFontSizes(createTheme({
     palette: {
         background: {
-            default: 'transparent',
+            default: 'e9e9da',
         },
         text: {
-            primary: '#FFFFFF',
+            primary: '#000000',
         },
-        primary: { main: '#393d3a' },
+        primary: { main: '#000000' },
         secondary: { main: '#4e624d' },
-        buttonColor: { main: '#FFFFFF'},
+        buttonColor: { main: '#000000'},
     },
     typography: {
         button: {

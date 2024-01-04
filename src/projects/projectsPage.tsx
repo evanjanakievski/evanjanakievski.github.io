@@ -1,15 +1,15 @@
-import { Container, Typography, Button, Stack } from '@mui/material'
+import { Container, Typography } from '@mui/material'
 import ProjectCard from '../../components/projectCard.tsx'
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import CustomStyles from '../../components/CustomStyles.tsx'
 import './projectsPage.css';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import MailIcon from '@mui/icons-material/Mail';
+import MockFooter from '../../components/mockFooter.tsx';
+
 
 export default function Projects() {
     return (
         <CustomStyles>
-            <Container maxWidth={"md"} style={{backgroundColor: '#403e3b', justifyContent: "center", minHeight: '100vh'}}>
+            <Container maxWidth={"md"} style={{justifyContent: "center", minHeight: '100vh'}}>
                 <Container style={{justifyContent: "center", padding: "10px"}}>
                     <Typography variant={"h1"} align={'center'} fontWeight={"300"} gutterBottom>
                         Projects
@@ -26,27 +26,18 @@ export default function Projects() {
                 <Container maxWidth={"md"}>
                     <Grid container spacing={3} justifyContent={"center"}>
                         <Grid xs={8} md={4}>
-                            <ProjectCard name={"Robotic Arm"} shortDesc={"Sept. 2023 - Present"} img={"/images/robotic-arm.jpg"} link={"/roboticArm/"}/>
+                            <ProjectCard name={"Robotic Arm"} shortDesc={"Sept. 2023 - Present"} img={"/images/roboticArm/roboticArmSquare.jpg"} link={"/roboticArm/"}/>
                         </Grid>
                         <Grid xs={8} md={4}>
                             <ProjectCard name={"LEGO Prosthetic Hand"} shortDesc={"Oct. 2023 - Nov. 2023"} img={"/images/legoProsthetic/legoProsSquare.jpg"} link={"/legoProstheticHand/"}/>
                         </Grid>
                         <Grid xs={8} md={4}>
-                            <ProjectCard name={"Larva Identifier"} shortDesc={"Apr. 2022 - Feb. 2023"} img={"/images/robotic-arm.jpg"} link={"/larvaIdentifier/"}/>
+                            <ProjectCard name={"Larva Identifier"} shortDesc={"Apr. 2022 - Feb. 2023"} img={"/images/larvaIdentifier/larvaIdentifierSquare2.jpg"} link={"/larvaIdentifier/"}/>
                         </Grid>
                     </Grid>
                 </Container>
                 <Container style={{minHeight: '8vh',}}/>
-                <Container style={{justifyContent: "center", width: "350px"}}>
-                    <Stack spacing={0.25}>
-                        <Button size={'large'} startIcon={<LinkedInIcon/>} color={'buttonColor'} target={'_blank'} href={'https://linkedin.com/in/evan-janakievski'}>
-                            Evan Janakievski
-                        </Button>
-                        <Button size={'large'} startIcon={<MailIcon/>} color={'buttonColor'} target={'_blank'} href={'mailto:evanjanakievski@gmail.com'}>
-                            evanjanakievski@gmail.com
-                        </Button>
-                    </Stack>
-                </Container>
+                <MockFooter/>
             </Container>
         </CustomStyles>
     )
