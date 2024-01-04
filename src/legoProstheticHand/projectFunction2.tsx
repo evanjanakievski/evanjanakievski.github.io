@@ -1,71 +1,76 @@
-import { Container, Typography } from '@mui/material';
+import { Container, Typography, Button, Stack } from '@mui/material';
 import CustomStyles from '../../components/CustomStyles.tsx';
 import './projectFunction2.css';
 import ReactPlayer from 'react-player';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 export default function Project2() {
     return (
         <CustomStyles>
             <Container maxWidth={"md"} style={{backgroundColor: '#403e3b', justifyContent: "center", minHeight: '100vh'}}>
                 <Container style={{justifyContent: "center", padding: "10px"}}>
-                    <Typography variant={"h1"} align={'center'} fontWeight={"300"} gutterBottom>
+                    <Typography variant={"h2"} align={'center'} fontWeight={"300"} gutterBottom>
                         LEGO EV3 Prosthetic Hand
                     </Typography>
                 </Container>
-                <Container style={{minHeight: '15vh',}}/>
-                <Typography variant={"h2"} gutterBottom>
+                <Container style={{minHeight: '10vh',}}/>
+                <Typography variant={"h5"}>
+                    Skills Used
+                </Typography>
+                <Typography gutterBottom>
+                    SolidWorks, Project Planning, Mechanical Design, ROBOTC, 3D Printing
+                </Typography>
+                <Typography variant={"h3"} style={{paddingTop: "25px"}} gutterBottom>
                     About this project
                 </Typography>
                 <Typography align={"justify"} gutterBottom>
                     This project was the final project for one of my first year courses in which we were given the LEGO 
-                    electronics and were told to find a problem and create a solution. My team consisted of two members 
-                    and we wanted to build a prosthetic prototype. The robot used multiple sensors and acutuators including: 
+                    electronics and were told to find a problem and create a solution. My team consisted of four members 
+                    and we wanted to build a prosthetic hand prototype. The robot used multiple sensors and acutuators including: 
                     an ultrasonic sensor, a touch sensor, an accelerometer, and three motors. The timeline of this project 
-                    was to complete it in one month. Ideation, prototyping, programming, and final construction all needed to 
-                    be scheduled. The robot was contructed out of LEGO pieces along with three 3D printed parts for the handle. 
+                    was to complete it in one month. Ideation, prototyping, programming, and final construction needed a timeline. 
+                    The robot was contructed out of LEGO pieces along with three 3D printed parts for the handle. 
                     Programming the robot was done with RobotC.
                 </Typography>
-                <Container style={{padding: "5px"}}>
-                    <img src={"/images/legoProsthetic/overallBuildLegoPros.jpg"} alt={"Picture of LEGO prosthetic hand"} style={{ width: '100%', maxWidth: '55vh'}}/>
+                <Container style={{padding: "5px", maxWidth: '400', minWidth: '200'}}>
+                    <img src={"/images/legoProsthetic/overallBuildLegoPros.jpg"} alt={"Picture of LEGO prosthetic hand"} style={{height: 'auto', width: '40%'}}/>
                 </Container>
                 <Typography align={'center'} gutterBottom>
                     Final construction of the prosthetic hand. 
                 </Typography>
                 <Typography align={"justify"} gutterBottom>
-                    The team sought to make the design lightweight, compact, and easy to operate for a potential user, so 
-                    the design of the robot went through several iterations before completion. The first concepts for the 
-                    design included, notably, five motorized and flexible fingers, as well as a wrist that would have the 
-                    ability to rotate. These aspects were not possible to build given time and materials and would have 
-                    also made the robot too heavy and bulky for general use, so the design was reduced to having only 
-                    three fingers and giving the role of rotation to the user's arm. The team had also initially planned 
-                    to secure the robot to the wearer’s forearm, but this would have been difficult to do safely while 
-                    also keeping the robot from shifting its position during operation, so a handle was attached instead 
-                    so that it can be held.
+                    I assisted with designing and building the main chassis along with another partner. Then I also wrote many 
+                    of the main functions for the program, such as using the ultrasonic sensor to look for objects, closing the motors and 
+                    maintaining a grip on an object, and also to sensor the press of an object on the touch sensor. The 3D printed handle 
+                    was designed by myself in SolidWorks and was printed on a Prusa at the University of Waterloo out of PLA filament.
                 </Typography>
-                <Typography align={"justify"} gutterBottom>
-                    The working final product used an ultrasonic sensor to detect the distance of an object from the palm 
-                    of the robot’s hand, which would trigger the fingers to open if that object was in close proximity. 
-                    The palm of the hand was a large plate that, when pushed, would activate a touch sensor that was used 
-                    to close the fingers around any object that pressed down on the plate. The fingers would then grip an 
-                    object such that it could be lifted into the air without falling. The user would be able to request 
-                    the fingers to release the object via a button press, and the robot would do so if an accelerometer 
-                    sensor, which was placed on the hand, detected minimal movement of the robot as a whole. The robot 
-                    was also able to be switched to a mode of manual control, where the fingers could be opened and 
-                    closed via separate button presses. The robot was also programmed to gesture a type of wave when 
-                    a specific button was pressed. Two shutdown procedures were also implemented, one of which was an 
-                    emergency shutdown that could be activated at any time that would throw the fingers fully open; 
-                    this was intended only to be activated if the robot was causing damage or harm. The other shutdown 
-                    procedure would slowly close the fingers and could only be activated if the robot was not actively 
-                    moving the fingers or gripping an object.
+                <Typography variant={"h3"} style={{paddingTop: "25px"}} gutterBottom>
+                    Media
                 </Typography>
-                <Typography align={"justify"} gutterBottom>
-                    My partner and I split the work quite evenly. The programming of the robot was split between which 
-                    functions each of us did. The construction of the robot was done by the two of us and bouncing ideas 
-                    off each other to compact the design down more and more. I designed the handle using SolidWorks and 
-                    printed it on one of the available Prusa printers at the school. 
+                <Container style={{justifyContent: 'center', padding: "10px", display: 'flex'}}>
+                    <ReactPlayer style={{ width: '60%' }} controls={true} url={'/images/legoProsthetic/pickUpBottlePros.mov'} />
+                </Container>
+                <Typography gutterBottom>
+                    Video of the prosthetic hand picking up a water bottle using the ultrasonic sensor and touch sensor.
                 </Typography>
-                <Container style={{justifyItems: 'center', padding: "10px"}}>
-                    <ReactPlayer style={{ maxWidth: '60vh' }} controls={true} mute={true} url={'/images/legoProsthetic/pickUpBottlePros.mov'} />
+                <Container style={{justifyContent: 'center', padding: "10px", display: 'flex'}}>
+                    <ReactPlayer style={{ width: '60%' }} controls={true} url={'/images/legoProsthetic/touchSensor.mov'} />
+                </Container>
+                <Typography gutterBottom>
+                    Video of how pressing the palm redirects the press into the touch sensor facing the back of the hand.
+                </Typography>
+
+
+
+                <Typography style={{paddingTop: "25px"}}>
+                    If you are interested in learning more, click on the button below to open the written report:
+                </Typography>
+                <Container style={{justifyContent: "center", width: "350px"}}>
+                    <Stack spacing={0.25}>
+                        <Button size={'large'} startIcon={<DescriptionIcon/>} color={'buttonColor'} target={'_blank'} href={'/documents/MTEFinalProjectReport.pdf'} variant={'outlined'}>
+                            LEGO Prosthetic Written Report
+                        </Button>
+                    </Stack>
                 </Container>
                 <Container style={{minHeight: '10vh',}}/>
             </Container>

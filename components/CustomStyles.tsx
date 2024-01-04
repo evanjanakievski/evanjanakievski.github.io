@@ -33,7 +33,7 @@ const theme = responsiveFontSizes(createTheme({
             primary: '#FFFFFF',
         },
         primary: { main: '#393d3a' },
-        secondary: { main: '#3f5843' },
+        secondary: { main: '#4e624d' },
         buttonColor: { main: '#FFFFFF'},
     },
     typography: {
