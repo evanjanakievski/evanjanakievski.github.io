@@ -9,6 +9,7 @@ const outDir = resolve(__dirname, 'dist')
 export default defineConfig({
   root,
   plugins: [react()],
+  publicDir:  resolve(__dirname, 'public'),
   build: {
     outDir,
     emptyOutDir: true,

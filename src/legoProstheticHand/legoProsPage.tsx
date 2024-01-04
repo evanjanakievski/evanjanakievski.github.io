@@ -1,11 +1,11 @@
 import { Container, Typography, Button, Stack } from '@mui/material';
 import CustomStyles from '../../components/CustomStyles.tsx';
-import './projectFunction2.css';
+import './legoProsPage.css';
 import ReactPlayer from 'react-player';
 import DescriptionIcon from '@mui/icons-material/Description';
 import MockFooter from '../../components/mockFooter.tsx';
 
-export default function Project2() {
+export default function LegoProsPage() {
     return (
         <CustomStyles>
             <Container maxWidth={"md"} style={{justifyContent: "center", minHeight: '100vh'}}>
@@ -24,7 +24,7 @@ export default function Project2() {
                     </Typography>
                 </Container>
                 <Container style={{padding: "5px", maxWidth: '550px', minWidth: '325px'}}>
-                    <img src={"/images/legoProsthetic/overallBuildLegoPros.jpg"} alt={"Picture of LEGO prosthetic hand"} style={{height: 'auto', width: '60%'}}/>
+                    <img src={"/legoProsthetic/overallBuildLegoPros.JPG"} alt={"Picture of LEGO prosthetic hand"} style={{height: 'auto', width: '60%'}}/>
                 </Container>
                 <Typography align={'center'} gutterBottom>
                     Final construction of the prosthetic hand. 
@@ -59,7 +59,7 @@ export default function Project2() {
                 </Typography>
                 <Container style={{justifyContent: 'center', padding: "10px", display: 'flex'}}>
                     <div className={"player-wrapper-horizontal"}>
-                        <ReactPlayer width={"100%"} height={"100%"} controls={true} url={'/images/legoProsthetic/pickUpBottlePros.mov'} />
+                        <ReactPlayer width={"100%"} height={"100%"} controls={true} url={"/legoProsthetic/pickUpBottlePros.MOV"} />
                     </div> 
                 </Container>
                 <Typography gutterBottom>
@@ -67,7 +67,7 @@ export default function Project2() {
                 </Typography>
                 <Container style={{justifyContent: 'center', padding: "10px", display: 'flex'}}>
                     <div className={"player-wrapper-vertical"}>
-                        <ReactPlayer width={"100%"} height={"100%"} controls={true} url={'/images/legoProsthetic/touchSensor.mov'} />
+                        <ReactPlayer width={"100%"} height={"100%"} controls={true} url={'/legoProsthetic/touchSensor.MOV'} />
                     </div>
                 </Container>
                 <Typography gutterBottom>
@@ -78,7 +78,7 @@ export default function Project2() {
                 </Typography>
                 <Container style={{justifyContent: "center", width: "350px"}}>
                     <Stack spacing={0.25}>
-                        <Button size={'large'} startIcon={<DescriptionIcon/>} color={'buttonColor'} target={'_blank'} href={'/documents/MTEFinalProjectReport.pdf'} variant={'outlined'}>
+                        <Button size={'large'} startIcon={<DescriptionIcon/>} color={'buttonColor'} target={'_blank'} href={'/MTEFinalProjectReport.pdf'} variant={'outlined'}>
                             LEGO Prosthetic Written Report
                         </Button>
                     </Stack>

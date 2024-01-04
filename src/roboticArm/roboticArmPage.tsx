@@ -1,9 +1,9 @@
 import { Container, Typography } from '@mui/material';
 import CustomStyles from '../../components/CustomStyles';
-import './projectFunction1.css'
+import './roboticArmPage.css';
 import MockFooter from '../../components/mockFooter';
 
-export default function Project1() {
+export default function roboticArmPage() {
     return (
         <CustomStyles>
             <Container maxWidth={"md"} style={{justifyContent: "center", minHeight: '100vh'}}>
@@ -22,7 +22,7 @@ export default function Project1() {
                     </Typography>
                 </Container>
                 <Container style={{padding: "5px", maxWidth: '1000px' , minWidth: '325px'}}>
-                    <img src={"/images/roboticArm/roboticArmCad.jpg"} alt={"Picture of the robotic arm in SolidWorks"} style={{height: 'auto', width: '70%'}}/>
+                    <img src={"/roboticArm/roboticArmCad.jpg"} alt={"Picture of the robotic arm in SolidWorks"} style={{height: 'auto', width: '70%'}}/>
                 </Container>
                 <Typography align={'center'} gutterBottom>
                     Assembly of robotic arm in SolidWorks.

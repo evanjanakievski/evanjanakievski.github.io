@@ -6,7 +6,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Collapse, List, ListItemButton, createTheme, Link, Container } from '@mui/material';
+import { ListItemButton, createTheme, Link, Container } from '@mui/material';
 
 interface Pages {
     name: string;
@@ -50,7 +50,7 @@ const theme = createTheme({
         secondary: { main: '#b5c2c7' },
 }});
 
-function NavBarButton ({ name, href, subMenu }: Pages) {
+function NavBarButton ({ name, href }: Pages) {
     const [hover, setHover] = React.useState(false);
 
     return (

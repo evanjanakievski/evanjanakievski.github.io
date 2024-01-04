@@ -1,10 +1,10 @@
 import { Container, Typography } from '@mui/material';
 import CustomStyles from '../../components/CustomStyles.tsx';
-import './projectFunction3.css';
+import './larvaPage.css';
 import ReactPlayer from 'react-player/youtube';
 import MockFooter from '../../components/mockFooter.tsx';
 
-export default function Project3() {
+export default function LarvaPage() {
     return (
         <CustomStyles>
             <Container maxWidth={"md"} style={{justifyContent: "center", minHeight: '100vh'}}>
@@ -23,7 +23,7 @@ export default function Project3() {
                     </Typography>
                 </Container>
                 <Container style={{padding: "5px", maxWidth: '550px', minWidth: '300px'}}>
-                    <img src={"/images/larvaIdentifier/larvaIdentifierSquare2.jpg"} alt={"Example photo of a crab larva collected in the Puget Sound"} style={{height: 'auto', width: '70%'}}/>
+                    <img src={"/larvaIdentifier/larvaIdentifierSquare2.jpg"} alt={"Example photo of a crab larva collected in the Puget Sound"} style={{height: 'auto', width: '70%'}}/>
                 </Container>
                 <Typography align={'center'} gutterBottom>
                     Photo of a crab larva in the megalopa stage, that was collected in from the Puger Sound. 
