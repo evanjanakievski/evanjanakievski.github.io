@@ -1,4 +1,4 @@
-import { Container, Typography } from '@mui/material';
+import { Container, Typography, List, ListItem } from '@mui/material';
 import CustomStyles from '../../components/CustomStyles';
 import './roboticArmPage.css';
 import MockFooter from '../../components/mockFooter';
@@ -27,6 +27,14 @@ export default function roboticArmPage() {
                 <Typography align={'center'} gutterBottom>
                     Assembly of robotic arm in SolidWorks.
                 </Typography>
+                <Typography variant={'h6'} align={'left'}>
+                    Main Ideas
+                </Typography>
+                <List style={{ listStyleType: 'disc', paddingLeft: '30px' }} dense={true}>
+                    <ListItem style={{ display: 'list-item' }}>Designed the mechanical parts of the robot with SolidWorks to be 3D printed allowing 4 degrees of freedom and assembled using M3 bolts and various screws</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>Wired the servo motors to an Arduino Uno using a PCA9685 PWM motor controller board powered by 5 volts and 10 amps</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>Programming the arm to mimic the movements of the user’s hand using a HuskyLens ‐ AI Sensor using computer vision</ListItem>
+                </List>
                 <Typography align={"justify"} gutterBottom>
                     This project I started in September 2023 to push myself to learn more about assemblies, electronics, and programming. My goal of 
                     the project is to build a robotic arm driven by servo motors, that will follow and reflect the movements of my hand that is tracked 
@@ -49,6 +57,12 @@ export default function roboticArmPage() {
                     issues with my methods of connecting the servos because the fit was too close. I have needed to drill the holes slightly larger or 
                     file down edges to allow the servos to fit. Learning the methods to communicate between the camera, Arduino, and driver board has had 
                     its learning curve. Error in the machine vision has also needed workarounds. 
+                </Typography>
+                <Container style={{padding: "5px", maxWidth: '1000px' , minWidth: '325px'}}>
+                    <img src={"/roboticArm/roboticArmBuild1.jpg"} alt={"Picture of the robotic arm built"} style={{height: 'auto', width: '50%'}}/>
+                </Container>
+                <Typography align={'center'} gutterBottom>
+                    Current assembled portion of the robot for testing. The base was constructed to hold the weight of the robot and test 3 of the 4 degrees of freedom.
                 </Typography>
                 <Container style={{minHeight: '4vh',}}/>
                 <MockFooter/>

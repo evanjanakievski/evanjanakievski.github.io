@@ -1,4 +1,4 @@
-import { Container, Typography } from '@mui/material';
+import { Container, Typography, List, ListItem } from '@mui/material';
 import CustomStyles from '../../components/CustomStyles.tsx';
 import './larvaPage.css';
 import ReactPlayer from 'react-player/youtube';
@@ -28,6 +28,14 @@ export default function LarvaPage() {
                 <Typography align={'center'} gutterBottom>
                     Photo of a crab larva in the megalopa stage, that was collected in from the Puger Sound. 
                 </Typography>
+                <Typography variant={'h6'} align={'left'}>
+                    Main Ideas
+                </Typography>
+                <List style={{ listStyleType: 'disc', paddingLeft: '30px' }} dense={true}>
+                    <ListItem style={{ display: 'list-item' }}>Built an image classification model that identifies two crab larva stages with 90% accuracy</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>Trained the model with TensorFlow Keras on a self‐made database using over 400 images</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>Recognized in 2 science and engineering fairs with presentations to panels of judges reflecting on the engineering process and the successes and failures</ListItem>
+                </List>
                 <Typography align={"justify"} gutterBottom>
                     As my research project for my Marine Chemistry course, a four-year research course I participated in during high school, 
                     I pursued my interest in artificial intelligence by creating an image classification model for crab larvae. There are two 

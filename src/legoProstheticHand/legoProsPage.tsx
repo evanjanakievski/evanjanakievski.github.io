@@ -1,4 +1,4 @@
-import { Container, Typography, Button, Stack } from '@mui/material';
+import { Container, Typography, Button, Stack, List, ListItem } from '@mui/material';
 import CustomStyles from '../../components/CustomStyles.tsx';
 import './legoProsPage.css';
 import ReactPlayer from 'react-player';
@@ -29,6 +29,14 @@ export default function LegoProsPage() {
                 <Typography align={'center'} gutterBottom>
                     Final construction of the prosthetic hand. 
                 </Typography>
+                <Typography variant={'h6'} align={'left'}>
+                    Main Ideas
+                </Typography>
+                <List style={{ listStyleType: 'disc', paddingLeft: '30px' }} dense={true}>
+                    <ListItem style={{ display: 'list-item' }}>Created an autonomous prosthetic hand prototype, requiring limited user input for control</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>Constructed out of 3D printed parts and LEGO pieces, the hand had two fingers and a thumb that used 1 motor each that were controlled by different sensor inputs, capable of holding onto 5 pounds and various shapes of objects</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>3 sensors, an ultrasonic, a touch, and an accelerometer, along with 3 motors were used to translate real time data, such as object distance and motor encoders, into operations for the the hand, programmed in RobotC for a LEGO EV3 brick</ListItem>
+                </List>
                 <Typography align={"justify"} gutterBottom>
                     As a final project of one of my courses, we were tasked with using LEGO electronics to find and solve a problem. My team 
                     consisted of four members, and we decided to build a prosthetic hand prototype. The robot used multiple sensors and 
