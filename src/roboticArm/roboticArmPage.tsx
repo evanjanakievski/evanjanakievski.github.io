@@ -2,6 +2,7 @@ import { Container, Typography, List, ListItem } from '@mui/material';
 import CustomStyles from '../../components/CustomStyles';
 import './roboticArmPage.css';
 import MockFooter from '../../components/mockFooter';
+import ReactPlayer from 'react-player';
 
 export default function roboticArmPage() {
     return (
@@ -63,6 +64,16 @@ export default function roboticArmPage() {
                 </Container>
                 <Typography align={'center'} gutterBottom>
                     Current assembled portion of the robot for testing. The base was constructed to hold the weight of the robot and test 3 of the 4 degrees of freedom.
+                </Typography>
+                <Container style={{justifyContent: 'center', padding: "10px", display: 'flex'}}>
+                    <div className={"player-wrapper-vertical"}>
+                        <ReactPlayer width={"100%"} height={"100%"} controls={true} url={'/roboticArm/arm1TestVid.mov'} />
+                    </div>
+                </Container>
+                <Typography gutterBottom>
+                    Video demonstration of the top ligament tracking hand motion. My hand is in the specific gesture that allows it to be tracked. When my hand is 
+                    open, it is not tracked. Currently working on a second degree of freedom, video hopefully up soon. While both can move, the exact location is not 
+                    precise and needs more testing.
                 </Typography>
                 <Container style={{minHeight: '4vh',}}/>
                 <MockFooter/>
