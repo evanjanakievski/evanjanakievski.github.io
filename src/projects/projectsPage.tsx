@@ -18,7 +18,7 @@ export default function Projects() {
                     <Typography align={'justify'} gutterBottom>
                         Projects have offered me many opportunities to learn more about various areas of engineering, 
                         programming, and technology. These projects have spanned across high school and now into university. 
-                        These projects are both personal and for a design team I joined after coming to university. I have taken 
+                        These projects are both personal and for the design team I joined after coming to university. I have taken 
                         on multiple projects to contribute to the overall design. Striving to learn more about a variety of 
                         topics, my goal is to challenge myself with each project I pursue.
                     </Typography>

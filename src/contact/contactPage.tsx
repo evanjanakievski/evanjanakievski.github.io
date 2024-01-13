@@ -14,9 +14,10 @@ export default function Contact() {
                     </Typography>
                     <Container style={{minHeight: '10vh',}}/>
                     <Typography align={'justify'} gutterBottom>
-                        I am studying at the University of Waterloo and part of the co-op program which means I am 
-                        constanly looking for another opportunity to grow and learn. I have dual citizenship, so I am 
-                        authorized to work in both the United States and Canada. Thank you for taking a look at my portfolio!
+                        I am studying Mechatronics Engineering at the University of Waterloo and participate in their co-op program. 
+                        I am interested in opportunities for professional development where I can contribute to the company's mission. 
+                        I have dual citizenship, so I am authorized to work in both the United States and Canada. Thank you for taking 
+                        a look at my portfolio!
                     </Typography>
                     <Container style={{minHeight: '10vh',}}/>
                     <Typography align={'center'} gutterBottom>
