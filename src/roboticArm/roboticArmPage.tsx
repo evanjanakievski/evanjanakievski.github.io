@@ -75,6 +75,16 @@ export default function roboticArmPage() {
                     open, it is not tracked. Currently working on a second degree of freedom, video hopefully up soon. While both can move, the exact location is not 
                     precise and needs more testing.
                 </Typography>
+                <Container style={{justifyContent: 'center', padding: "10px", display: 'flex'}}>
+                    <div className={"player-wrapper-vertical"}>
+                        <ReactPlayer width={"100%"} height={"100%"} controls={true} url={'/roboticArm/arm2TestVid.mp4'} />
+                    </div>
+                </Container>
+                <Typography gutterBottom>
+                    Video demonstration of both segments of the arm working. The position of the user's hand is converted to a coordinate that can then be used to  
+                    find the angles needed for the servo motors to change to. The video also shows how the arm does not track when the specific gesture is not shown. 
+                    Need to adjust the scalars from the object tracking to make it more thesible to use the camera for closer range objects.
+                </Typography>
                 <Container style={{minHeight: '4vh',}}/>
                 <MockFooter/>
             </Container>

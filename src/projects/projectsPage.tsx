@@ -1,7 +1,7 @@
-import { Container, Typography } from '@mui/material'
-import ProjectCard from '../../components/projectCard.tsx'
+import { Container, Typography } from '@mui/material';
+import ProjectCard from '../../components/projectCard.tsx';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
-import CustomStyles from '../../components/CustomStyles.tsx'
+import CustomStyles from '../../components/CustomStyles.tsx';
 import './projectsPage.css';
 import MockFooter from '../../components/mockFooter.tsx';
 

@@ -1,6 +1,6 @@
-import { Container, Typography, Button, Stack } from '@mui/material'
-import CustomStyles from '../../components/CustomStyles.tsx'
-import './contact.css'
+import { Container, Typography, Button, Stack } from '@mui/material';
+import CustomStyles from '../../components/CustomStyles.tsx';
+import './contact.css';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
 
