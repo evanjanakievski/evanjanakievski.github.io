@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import { resolve } from 'path'
+import { VitePluginRadar } from 'vite-plugin-radar'
 
 const root = resolve(__dirname, 'src')
 const outDir = resolve(__dirname, 'dist')
@@ -8,7 +9,14 @@ const outDir = resolve(__dirname, 'dist')
 // https://vitejs.dev/config/
 export default defineConfig({
   root,
-  plugins: [react()],
+  plugins: [
+    react(),
+    VitePluginRadar({
+      analytics: {
+        id: 'G-BDDCM53JDZ',
+      },
+    })
+  ],
   publicDir:  resolve(__dirname, 'public'),
   build: {
     outDir,

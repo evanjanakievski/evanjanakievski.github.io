@@ -8,6 +8,7 @@ export default function About() {
     return (
         <CustomStyles>
             <Container maxWidth={"md"} style={{justifyContent: "center"}}>
+                <Container style={{minHeight: '10vh',}}/>
                 <Container style={{justifyContent: "center", padding: "10px", flexDirection: 'column', display: 'flex'}}>
                     <Typography variant={"h1"} fontWeight={"300"} flexShrink={1} gutterBottom>
                         Evan Janakievski
