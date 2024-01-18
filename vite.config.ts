@@ -14,6 +14,9 @@ export default defineConfig({
     VitePluginRadar({
       analytics: {
         id: 'G-BDDCM53JDZ',
+        config: {
+          send_page_view: true,
+        }
       },
     })
   ],
