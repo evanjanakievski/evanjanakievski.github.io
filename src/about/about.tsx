@@ -14,35 +14,34 @@ export default function About() {
                         Evan Janakievski
                     </Typography>
                 </Container>
-                <Container style={{minHeight: '10vh',}}/>
+                <Container style={{minHeight: '10vh'}}/>
                 <Typography variant={"h2"} gutterBottom>About</Typography>
-                <Typography align={"justify"} gutterBottom>
-                    I'm Evan Janakievski, currently a student at the University of Waterloo, majoring in Mechatronics Engineering.
-                    It was important to me to have an education with a strong interdisciplinary, didactic program combined 
-                    with hands-on learning and it is why I selected the University of Waterloo, along with its renowned 
-                    co-op program. As a first-year student, I understand that I have a lot to learn, but I believe that 
-                    my curriculum and extracurriculars will prepare me to be an asset in any position I hold. 
-                </Typography>
-                <Typography align={"justify"} gutterBottom>
-                    Technology has always fascinated me, and I'm continually eager to broaden my knowledge in this domain.
-                    Mechanical design, artificial intelligence, robotics, and automation captivate my interest. At uWaterloo
-                    I joined a design team called Waterloo Aerial Robotics Group as an opportunity to apply  
-                    the mechanical design strategies I have learned in class. An interest in design teams came from my participation 
-                    on my high school's First Robotics Competition team, where I gained experience in many areas of the 
-                    engineering process through the mechanical and electrical subteams.
-                </Typography>
-                <Typography align={"justify"} gutterBottom>
-                    During high school, I gained practical experience in web design while creating and managing
-                    a website for a middle school Model United Nations conference hosted by my high school. Moreover, I
-                    pursued a research project involving the development of an image classification model using TensorFlow
-                    and a custom database.
-                </Typography>
-                <Typography align={"justify"} gutterBottom>
-                    While I am not focusing on school, I like to pursue personal projects to develop hands-on skills. These projects include
-                    many disciplines such as: mechanical design, circuits, and programming. Developing the fundamentals for these skills
-                    will allow me to be successful in any position I am placed.
-                </Typography>
-                <Container style={{minHeight: '12vh',}}/>
+                <Grid container spacing={2} alignItems={'center'} justifyContent={'center'}>
+                    <Grid xs={10} md={6}>
+                        <Container style={{padding: "5px", maxWidth: '1000px' , minWidth: '325px'}}>
+                            <img src={"/Photos/Evan_Headshot.jpg"} alt={"My headshot"} style={{height: 'auto', width: '70%'}}/>
+                        </Container>
+                    </Grid>
+                    <Grid xs={10} md={6}>
+                        <Typography align={"left"} gutterBottom>
+                            I'm Evan Janakievski, currently a student at the University of Waterloo, majoring in Mechatronics Engineering. It 
+                            was important to me to have an education with a strong interdisciplinary, didactic program combined with hands-on 
+                            learning and it is why I selected the University of Waterloo, along with its renowned co-op program. As a first-year 
+                            student, I understand that I have a lot to learn, but I believe that my curriculum and extracurriculars will prepare 
+                            me to be an asset in any position I hold.
+                        </Typography>
+                        <Typography align={"left"} gutterBottom>
+                            Technology has always fascinated me, and I'm continually eager to broaden my knowledge through different 
+                            opportunities. Mechanical design, robotics, automation, and software captivate my interest. While I am not focusing 
+                            on school, I like to pursue personal projects to develop hands-on skills in any field that draws my interest!
+                        </Typography>
+                        <Typography align={"left"} gutterBottom>
+                            My other interests include soccer, tennis, Formula 1, scuba diving, and rock climbing! I also enoy traveling with my family, cooking, 
+                            and baking. Photography is something I am slowly getting introduced to, and I love viewing beutiful landscapes.
+                        </Typography>
+                    </Grid>
+                </Grid>
+                <Container style={{minHeight: '8vh',}}/>
                 <Container maxWidth={"md"}>
                     <Typography variant={"h2"} fontWeight={"300"} flexShrink={1} gutterBottom>
                         Featured Projects
@@ -58,6 +57,30 @@ export default function About() {
                             <ProjectCard name={"Larva Identifier"} shortDesc={"Apr. 2022 - Feb. 2023"} img={"/larvaIdentifier/larvaIdentifierSquare2.jpg"} link={"/larvaIdentifier/"}/>
                         </Grid>
                     </Grid>
+                </Container>
+                <Container style={{minHeight: '8vh',}}/>
+                <Container maxWidth={"md"}>
+                    <Typography variant={"h2"} fontWeight={"300"} flexShrink={1} gutterBottom>
+                        My Photos!
+                    </Typography>
+                    <Container style={{padding: "5px", paddingBottom: "0px", maxWidth: '1000px' , minWidth: '325px'}}>
+                        <img src={"/Photos/Vestrahorn.jpg"} alt={"Landscape of Vestrahorn"} style={{height: 'auto', width: '70%'}}/>
+                    </Container>
+                    <Typography gutterBottom>
+                        Vestrahorn - Iceland
+                    </Typography>
+                    <Container style={{padding: "5px", paddingBottom: "0px", maxWidth: '1000px' , minWidth: '325px'}}>
+                        <img src={"/Photos/Studlagil.jpg"} alt={"Landscape at Studlagil"} style={{height: 'auto', width: '70%'}}/>
+                    </Container>
+                    <Typography gutterBottom>
+                        Stuðlagil Canyon - Iceland
+                    </Typography>
+                    <Container style={{padding: "5px", paddingBottom: "0px", maxWidth: '1000px' , minWidth: '325px'}}>
+                        <img src={"/Photos/Stars.JPG"} alt={"Night photography"} style={{height: 'auto', width: '70%'}}/>
+                    </Container>
+                    <Typography gutterBottom>
+                        Waimea, Hawaii
+                    </Typography>
                 </Container>
                 <Container style={{minHeight: '8vh',}}/>
                 <MockFooter/>

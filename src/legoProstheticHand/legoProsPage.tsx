@@ -34,8 +34,9 @@ export default function LegoProsPage() {
                 </Typography>
                 <List style={{ listStyleType: 'disc', paddingLeft: '30px' }} dense={true}>
                     <ListItem style={{ display: 'list-item' }}>Created an autonomous prosthetic hand prototype, requiring limited user input for control</ListItem>
-                    <ListItem style={{ display: 'list-item' }}>Constructed out of 3D printed parts and LEGO pieces, the hand had two fingers and a thumb that used 1 motor each that were controlled by different sensor inputs, capable of holding onto 5 pounds and various shapes of objects</ListItem>
-                    <ListItem style={{ display: 'list-item' }}>3 sensors, an ultrasonic, a touch, and an accelerometer, along with 3 motors were used to translate real time data, such as object distance and motor encoders, into operations for the the hand, programmed in RobotC for a LEGO EV3 brick</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>Constructed 2 fingers and a thumb driven by 3 motors capable of holding up to 5 pounds</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>Programmed the hand with RobotC to pick up and release objects autonomously using 3 sensors (ultrasonic, touch, and accelerometer) and translating data into operations for the motors to execute</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>The 3D printed parts were designed in SolidWorks with a convex handle to make holding onto the hand more comfortable, a trade off because of the weight of the hand not allowing it to be strapped to the user’s forearm which was the original plan</ListItem>
                 </List>
                 <Typography align={"justify"} gutterBottom>
                     As a final project of one of my courses, we were tasked with using LEGO electronics to find and solve a problem. My team 

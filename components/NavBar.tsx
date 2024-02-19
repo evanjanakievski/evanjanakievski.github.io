@@ -32,10 +32,6 @@ const pages: Pages[] = [
             },
         ]
     },
-    {
-        name: 'Contact',
-        href: '/contact/',
-    }
 ];
 
 const theme = createTheme({

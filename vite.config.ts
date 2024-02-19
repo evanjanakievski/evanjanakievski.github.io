@@ -31,7 +31,6 @@ export default defineConfig({
         legoProstheticHand: resolve(__dirname, root, 'legoProstheticHand/index.html'),
         larvaIdentifier: resolve(__dirname, root, 'larvaIdentifier/index.html'),
         projects: resolve(__dirname, root, 'projects/index.html'),
-        contact: resolve(__dirname, root, 'contact/index.html')
       }
     }
   }

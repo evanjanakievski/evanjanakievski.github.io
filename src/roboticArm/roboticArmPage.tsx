@@ -32,9 +32,9 @@ export default function roboticArmPage() {
                     Main Ideas
                 </Typography>
                 <List style={{ listStyleType: 'disc', paddingLeft: '30px' }} dense={true}>
-                    <ListItem style={{ display: 'list-item' }}>Designed the mechanical parts of the robot with SolidWorks to be 3D printed allowing 4 degrees of freedom and assembled using M3 bolts and various screws</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>Designed a 4 degrees of freedom robotic arm in SolidWorks with servos mounted at the base, used for two joints, and to change the angle of the claw</ListItem>
+                    <ListItem style={{ display: 'list-item' }}>Programmed the arm to mimic the movements of the user’s hand using a HuskyLens ‐ AI Sensor using computer vision</ListItem>
                     <ListItem style={{ display: 'list-item' }}>Wired the servo motors to an Arduino Uno using a PCA9685 PWM motor controller board powered by 5 volts and 10 amps</ListItem>
-                    <ListItem style={{ display: 'list-item' }}>Programming the arm to mimic the movements of the user’s hand using a HuskyLens ‐ AI Sensor using computer vision</ListItem>
                 </List>
                 <Typography align={"justify"} gutterBottom>
                     This project I started in September 2023 to push myself to learn more about assemblies, electronics, and programming. My goal of 
