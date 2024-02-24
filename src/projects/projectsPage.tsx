@@ -32,6 +32,9 @@ export default function Projects() {
                             <ProjectCard name={"LEGO Prosthetic Hand"} shortDesc={"Oct. 2023 - Nov. 2023"} img={"/legoProsthetic/legoProsSquare.JPG"} link={"/legoProstheticHand/"}/>
                         </Grid>
                         <Grid xs={8} md={4}>
+                            <ProjectCard name={"UAV Cabin"} shortDesc={"Sept. 2023 - Present"} img={"/WARG/DroneAnalysisSquare.jpg"} link={"/UAVCabin/"}/>
+                        </Grid>
+                        <Grid xs={8} md={4}>
                             <ProjectCard name={"Larva Identifier"} shortDesc={"Apr. 2022 - Feb. 2023"} img={"/larvaIdentifier/larvaIdentifierSquare2.jpg"} link={"/larvaIdentifier/"}/>
                         </Grid>
                     </Grid>

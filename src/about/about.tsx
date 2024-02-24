@@ -36,8 +36,8 @@ export default function About() {
                             on school, I like to pursue personal projects to develop hands-on skills in any field that draws my interest!
                         </Typography>
                         <Typography align={"left"} gutterBottom>
-                            My other interests include soccer, tennis, Formula 1, scuba diving, and rock climbing! I also enoy traveling with my family, cooking, 
-                            and baking. Photography is something I am slowly getting introduced to, and I love viewing beutiful landscapes.
+                            My other interests include soccer, tennis, Formula 1, scuba diving, and rock climbing! I also enjoy traveling with my family, cooking, 
+                            and baking. Photography is something I am slowly getting introduced to, and I love viewing beautiful landscapes.
                         </Typography>
                     </Grid>
                 </Grid>
@@ -54,7 +54,7 @@ export default function About() {
                             <ProjectCard name={"LEGO Prosthetic Hand"} shortDesc={"Oct. 2023 - Nov. 2023"} img={"/legoProsthetic/legoProsSquare.JPG"} link={"/legoProstheticHand/"}/>
                         </Grid>
                         <Grid xs={8} md={4}>
-                            <ProjectCard name={"Larva Identifier"} shortDesc={"Apr. 2022 - Feb. 2023"} img={"/larvaIdentifier/larvaIdentifierSquare2.jpg"} link={"/larvaIdentifier/"}/>
+                            <ProjectCard name={"UAV Cabin"} shortDesc={"Sept. 2023 - Present"} img={"/WARG/DroneAnalysisSquare.jpg"} link={"/UAVCabin/"}/>
                         </Grid>
                     </Grid>
                 </Container>
