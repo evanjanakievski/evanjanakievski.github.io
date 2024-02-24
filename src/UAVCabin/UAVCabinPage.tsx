@@ -2,7 +2,6 @@ import { Container, Typography, List, ListItem } from '@mui/material';
 import CustomStyles from '../../components/CustomStyles';
 import './UAVCabin.css';
 import MockFooter from '../../components/mockFooter';
-import ReactPlayer from 'react-player';
 
 export default function UAVCabinPage() {
     return (
