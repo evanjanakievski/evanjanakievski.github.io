@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Robotic Arm",
+    "technologies": "SolidWorks, Project Planning, Mechanical Design, Arduino, Servos, C++",
+    "icon": "RiRobotFill",
+    "image": "/project-assets/robotic-arm/roboticArmCard.jpg",
+    "link": "/robotic-arm"
+  },
+  {
+    "id": 2,
+    "name": "LEGO Prosthetic Hand",
+    "technologies": "SolidWorks, Project Planning, Mechanical Design, ROBOTC, 3D Printing",
+    "icon": "RiHandCoinFill",
+    "image": "/project-assets/lego-prosthetic/legoProsCard.jpg",
+    "link": "/lego-prosthetic"
+  },
+  {
+    "id": 3,
+    "name": "UAV Cabin",
+    "technologies": "SolidWorks, Mechanical Design, Ansys Fluent, Composite Layups, Project Planning",
+    "icon": "RiWindyLine",
+    "image": "/project-assets/warg/droneAnalysisCard.jpg",
+    "link": "/uav-cabin"
+  },
+  {
+    "id": 4,
+    "name": "Larva Identifier",
+    "technologies": "Python, Tensorflow, Project Planning",
+    "icon": "RiMicroscopeFill",
+    "image": "/project-assets/larva-indentifier/larvaIdentifierCard.jpg",
+    "link": "/larva-identifier"
+  },
+  {
+    "id": 5,
+    "name": "Robotic Arm",
+    "technologies": "SolidWorks, Project Planning, Mechanical Design, Arduino, Servos, C++",
+    "icon": "RiRobotFill",
+    "image": "/project-assets/robotic-arm/roboticArmCard.jpg",
+    "link": "/robotic-arm"
+  },
+  {
+    "id": 6,
+    "name": "LEGO Prosthetic Hand",
+    "technologies": "SolidWorks, Project Planning, Mechanical Design, ROBOTC, 3D Printing",
+    "icon": "RiHandCoinFill",
+    "image": "/project-assets/lego-prosthetic/legoProsCard.jpg",
+    "link": "/lego-prosthetic"
+  },
+  {
+    "id": 7,
+    "name": "UAV Cabin",
+    "technologies": "SolidWorks, Mechanical Design, Ansys Fluent, Composite Layups, Project Planning",
+    "icon": "RiWindyLine",
+    "image": "/project-assets/warg/droneAnalysisCard.jpg",
+    "link": "/uav-cabin"
+  },
+  {
+    "id": 8,
+    "name": "Larva Identifier",
+    "technologies": "Python, Tensorflow, Project Planning",
+    "icon": "RiMicroscopeFill",
+    "image": "/project-assets/larva-indentifier/larvaIdentifierCard.jpg",
+    "link": "/larva-identifier"
+  }
+]
