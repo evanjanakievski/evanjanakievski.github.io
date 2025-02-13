@@ -2,34 +2,34 @@
   {
     "id": 1,
     "name": "Fixed-Wing Airframe",
-    "technologies": "SolidWorks, FEA, Machining,Project Planning, Mechanical Design",
+    "technologies": "SolidWorks, FEA, Ansys Fluent, Machining, Project Management, Integration",
     "icon": "RiRobotFill",
     "image": "/project-assets/fixed-wing-airframe/WARG_Fixed_Wing_Airframe_Square.png",
     "link": "/fixed-wing-airframe"
   },
   {
     "id": 2,
-    "name": "Robotic Arm",
-    "technologies": "SolidWorks, Project Planning, Mechanical Design, Arduino, Servos, C++",
+    "name": "Articulated Robot",
+    "technologies": "SolidWorks, Arduino, Servos, C++, 3D Printing, Project Planning",
     "icon": "RiRobotFill",
     "image": "/project-assets/robotic-arm/roboticArmCard.jpg",
-    "link": "/robotic-arm"
+    "link": "/articulated-robot"
   },
   {
     "id": 3,
-    "name": "UAV Cabin",
-    "technologies": "SolidWorks, Mechanical Design, Ansys Fluent, Composite Layups, Project Planning",
+    "name": "UAV Payload",
+    "technologies": "SolidWorks, Ansys Fluent, Composite Layups, 3D Printing, Project Management",
     "icon": "RiWindyLine",
-    "image": "/project-assets/warg/droneAnalysisCard.jpg",
+    "image": "/project-assets/cabin/droneAnalysisCard.jpg",
     "link": "/uav-cabin"
   },
   {
     "id": 4,
     "name": "UAV Integration",
-    "technologies": "SolidWorks, Mechanical Design, Ansys Fluent, Composite Layups, Project Planning",
+    "technologies": "Sensors, Controllers, Radio Control",
     "icon": "RiWindyLine",
-    "image": "/project-assets/warg/droneAnalysisCard.jpg",
-    "link": "/uav-cabin"
+    "image": "/project-assets/quad-integration/WARG_Houston_Square.jpg",
+    "link": "/uav-integration"
   },
   {
     "id": 5,
@@ -38,13 +38,5 @@
     "icon": "RiMicroscopeFill",
     "image": "/project-assets/larva-indentifier/larvaIdentifierCard.jpg",
     "link": "/larva-identifier"
-  },
-  {
-    "id": 6,
-    "name": "LEGO Prosthetic Hand",
-    "technologies": "SolidWorks, Project Planning, Mechanical Design, ROBOTC, 3D Printing",
-    "icon": "RiHandCoinFill",
-    "image": "/project-assets/lego-prosthetic/legoProsCard.jpg",
-    "link": "/lego-prosthetic"
   }
 ]

@@ -11,6 +11,11 @@ interface Project {
   link: string;
 }
 
+export const metadata = {
+  title: "Evan Janakievski",
+  description: "Evan Janakievski Portfolio Site",
+};
+
 export default function Home() {
   return (
     <div>

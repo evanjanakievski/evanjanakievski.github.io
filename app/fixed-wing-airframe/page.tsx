@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Fixed-Wing Airframe",
+  description: "Designing of Airframe and Integration of Fixed-Wing",
+};
+
 export default function FixedWingAirframe() {
   return (
     <div className="max-w-screen-lg mx-auto p-8 flex flex-col">
@@ -6,22 +11,35 @@ export default function FixedWingAirframe() {
       <h2 className="text-lg">Student Design Team Project</h2>
       <h3 className="text-md">Skills and Technologies</h3>
       <p className="text-sm">
-        SolidWorks, Project Planning, Mechanical Design, Arduino, Servos, C++
+        SolidWorks, FEA, Ansys Fluent, Machining, Project Management, Integration
       </p>
       <br />
       <ul className="list-disc list-inside">
         <li>
-          Designed a 4 degrees of freedom robotic arm in SolidWorks with servos
-          mounted at the base, used for two joints, and to change the angle of
-          the claw
+          Designed an airframe to support a 5 kg, 1.7 meter wingspan fixed‐wing 
+          plane capable of changing wings and empennages for research and 
+          development, analyzing different airfoils, chord lengths, and control 
+          surfaces
         </li>
         <li>
-          Programmed the arm to mimic the movements of the user’s hand using a
-          HuskyLens ‐ AI Sensor using computer vision
+          Conducted FEA simulations, validating results with hand‐calculations 
+          for the wing spars and tail spar
         </li>
         <li>
-          Wired the servo motors to an Arduino Uno using a PCA9685 PWM motor
-          controller board powered by 5 volts and 10 amps
+          Designed cases for electronics including ELRS receivers, a video 
+          transmitter, an ESC, and a rangefinder and desgined a mounting
+          bracket for the motor and FPV camera
+        </li>
+        <li>
+          Organized a calculator to assist team members with design decisions 
+          regarding motor selection, angle of attack, aspect ratio, stall speed, 
+          and many other flight characteristics as well as determining geometries 
+          of control surfaces based off necessary moment arms for the plane’s 
+          geometries
+        </li>
+        <li>
+          Machined parts on a mill and a lathe and used a waterjet to cut out 
+          sheet metal parts allowing for quick assembly
         </li>
       </ul>
       <br />

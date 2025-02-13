@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "UAV Integration",
+  description: "Configuring Hardware for Quadcopters",
+};
+
 export default function UAVIntegration() {
   return (
     <div className="max-w-screen-lg mx-auto p-8 flex flex-col">
