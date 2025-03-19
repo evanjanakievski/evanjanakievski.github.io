@@ -21,10 +21,18 @@
     "technologies": "SolidWorks, Ansys Fluent, Composite Layups, 3D Printing, Project Management",
     "icon": "RiWindyLine",
     "image": "/project-assets/cabin/droneAnalysisCard.jpg",
-    "link": "/uav-cabin"
+    "link": "/uav-payload"
   },
   {
     "id": 4,
+    "name": "Linear Voltage Regulator",
+    "technologies": "Altium, Circuits",
+    "icon": "RiMicroscopeFill",
+    "image": "/project-assets/linear-voltage-regulator/linear-voltage-regulator-3d-square.png",
+    "link": "/linear-voltage-regulator"
+  },
+  {
+    "id": 5,
     "name": "UAV Integration",
     "technologies": "Sensors, Controllers, Radio Control",
     "icon": "RiWindyLine",
@@ -32,7 +40,7 @@
     "link": "/uav-integration"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Larva Identifier",
     "technologies": "Python, Tensorflow, Project Planning",
     "icon": "RiMicroscopeFill",

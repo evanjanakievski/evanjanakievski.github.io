@@ -9,14 +9,14 @@ export default function RoboticArm() {
   return (
     <div className="max-w-screen-lg mx-auto p-8 flex flex-col">
       <h1 className="text-5xl">Articulated Robot</h1>
-      <h2 className="text-lg">In Development</h2>
-      <h3 className="text-md">Skills and Technologies</h3>
+      <h2 className="text-lg">Oct 2023—March 2024</h2>
+      <h3 className="text-lg">Skills and Technologies:</h3>
       <p className="text-sm">
         SolidWorks, Project Planning, Mechanical Design, Arduino, Servos, C++
       </p>
       <br />
       <div className="flex justify-center">
-        <Image src="/project-assets/robotic-arm/roboticArmBuild1.jpg" alt="Assembled payload" width={300} height={200} />
+        <Image src="/project-assets/articulated-robot/roboticArmBuild1.jpg" alt="Assembled payload" width={300} height={200} />
       </div>
       <div className="flex justify-center">
         <p>
@@ -73,7 +73,43 @@ export default function RoboticArm() {
           movements of the user's hand by training it to recognize a specific user gesture, which 
           indicates that the user wants the robot to mimic their movement. The bounding box that 
           is drawn around the user's hand is converted to a point in 3D space by using the position
-          of the box and the size of the box. The x-location and y-location of the bounding box
+          of the box and the size of the box. 
+        </p>
+      </div>
+      <br/>
+      <div>
+        <div className="flex justify-center">
+          <video width="320" height="240" controls>
+            <source
+              src="/project-assets/articulated-robot/arm1TestVid.mov"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <p className="flex justify-center">
+          This video demonstrates the use of a specific gesture to inform the robot to follow the 
+          user's movements and it also shows the robot following the vertical movements of the user's 
+          hand.
+        </p>
+      </div>
+      <br/>
+      <div>
+        <div className="flex justify-center">
+          <video width="320" height="240" controls>
+            <source
+              src="/project-assets/articulated-robot/arm2TestVid.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <p className="flex justify-center">
+          This video demonstrates 2 degrees of freedom using inverse kinematics to calculate motor PWM values.
+        </p>
+      </div>
+      <br/>
+      <div>
+        <p>
+          The x-location and y-location of the bounding box
           translated to a point on a 2D plane, but the height of the bounding box was correlated to 
           how close the user's hand was to the camera. This allowed for a depth value to be calculated 
           for the robot by using the max reach of the robot as the bounding box taking up the 
@@ -89,21 +125,28 @@ export default function RoboticArm() {
         <div className="flex justify-center">
           <video width="320" height="240" controls>
             <source
-              src="/project-assets/robotic-arm/arm1TestVid.mov"
+              src="/project-assets/articulated-robot/arm3degreeFreedom.mov"
               type="video/mp4"
             />
           </video>
-          
         </div>
-        <p>
-          This video demonstrates the use of a specific gesture to inform the robot to follow the 
-          user's movements and it also shows the robot following the vertical movements of the user's 
-          hand.
+        <p className="flex justify-center">
+          This video demonstrates the full 3 degrees of freedom the robot is capable of.
         </p>
       </div>
       <br/>
       <div>
-        
+        <p>
+          After completing this project, there are some aspects that I would change or work 
+          on imrpoving for future iterations. The first would be increasing the possible payload 
+          size by switching the servos out for models that have a greater torque rating. I would 
+          also work on smoothing the PWM changes so there is not as much stuttering while the arm 
+          moves or is idle. A challenge for myself would be to create a custom pcb for this project 
+          that would allow me to learn about various protocals as well as pcb schematics. A second 
+          challenge would be programming my own object detection model for greater adaptability to 
+          the needs of the project, rather than relying on what is commercially avaialble through the 
+          sensor.
+        </p>
       </div>
     </div>
   );

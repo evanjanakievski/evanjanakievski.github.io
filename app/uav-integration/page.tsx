@@ -7,9 +7,9 @@ export default function UAVIntegration() {
   return (
     <div className="max-w-screen-lg mx-auto p-8 flex flex-col">
       <h1 className="text-5xl">UAV Integration</h1>
-      <h2 className="text-lg">May 2024 -- Present</h2>
+      <h2 className="text-lg">May 2024—Present</h2>
       <h2 className="text-lg">Student Design Team</h2>
-      <h3 className="text-md">Skills and Technologies</h3>
+      <h3 className="text-lg">Skills and Technologies:</h3>      
       <p className="text-sm">
         SolidWorks, Project Planning, Mechanical Design, Arduino, Servos, C++
       </p>

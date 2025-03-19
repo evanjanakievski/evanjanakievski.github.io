@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div>
+    <div id="projects">
       {/* Single Column View with Default Project Card*/}
       {/* <div className="flex flex-col items-center justify-center space-y-8">
             {projects.map((project: Project) => (
@@ -33,6 +33,7 @@ export default function Home() {
         </div> */}
       {/* Two Column View with Compact Project Card*/}
       <div className="max-w-screen-lg mx-auto">
+      <h2 className="text-3xl font-bold mb-4">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center">
           {projects.map((project: Project) => (
             <ProjectCard
@@ -45,6 +46,18 @@ export default function Home() {
               variant="compact"
             />
           ))}
+        </div>
+        <br/>
+      </div>
+      <div id="experience">
+        <div className="max-w-screen-lg mx-auto">
+          <h2 className="text-3xl font-bold mb-4">Experience</h2>
+          <h2 className="text-xl font-bold">Toyota Motor North America, Inc.</h2>
+          <h2>Jan 2025 — Present</h2>
+          <h2 className="text-l mb-4">Project Engineering Analyst Co-op — Body Production Engineering, Under Body Weld</h2>
+          <h2 className="text-xl font-bold">Cleveland Range (Welbilt Inc.)</h2>
+          <h2>May 2024 — Aug 2024</h2>
+          <h2 className="text-l">Mechanical Engineer Co-op</h2>
         </div>
       </div>
       {/* About Section */}

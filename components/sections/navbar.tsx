@@ -16,7 +16,7 @@ export default function Navbar() {
       <div>
         <div className="pr-4">
           <Button variant="link">
-            <Link href="#about">
+            <Link href="/#about">
               <p className="text-lg text-gray-800">About</p>
             </Link>
           </Button>
