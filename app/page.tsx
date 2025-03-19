@@ -54,10 +54,10 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-4">Experience</h2>
           <h2 className="text-xl font-bold">Toyota Motor North America, Inc.</h2>
           <h2>Jan 2025 — Present</h2>
-          <h2 className="text-l mb-4">Project Engineering Analyst Co-op — Body Production Engineering, Under Body Weld</h2>
+          <h2 className="text-l mb-4">Project Engineer Intern — Body Production Engineering, Underbody Weld</h2>
           <h2 className="text-xl font-bold">Cleveland Range (Welbilt Inc.)</h2>
           <h2>May 2024 — Aug 2024</h2>
-          <h2 className="text-l">Mechanical Engineer Co-op</h2>
+          <h2 className="text-l">Mechanical Engineer Intern</h2>
         </div>
       </div>
       {/* About Section */}
@@ -73,7 +73,7 @@ export default function Home() {
             />
             <div>
               <p>
-                I'm Evan Janakievski, currently a student at the University of
+                I&apos;m Evan Janakievski, currently a student at the University of
                 Waterloo, majoring in Mechatronics Engineering. It was important
                 to me to have an education with a strong interdisciplinary,
                 didactic program combined with hands-on learning and it is why I
@@ -85,7 +85,7 @@ export default function Home() {
               </p>
               <br />
               <p>
-                Technology has always fascinated me, and I'm continually eager
+                Technology has always fascinated me, and I&apos;m continually eager
                 to broaden my knowledge through different opportunities.
                 Mechanical design, robotics, automation, and software captivate
                 my interest. While I am not focusing on school, I like to pursue

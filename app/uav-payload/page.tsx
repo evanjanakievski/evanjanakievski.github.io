@@ -47,11 +47,11 @@ export default function PegasusCabin() {
       </div>
       <div>
         <p>
-          This project was a part of a student design team's entry for the 2024 
-          Aerial Evolution Association of Canada's student competition. The challenge
+          This project was a part of a student design team&apos;s entry for the 2024 
+          Aerial Evolution Association of Canada&apos;s student competition. The challenge
           for 2024 was to design an urban air mobility vehicle designed for efficiency. 
           The payload was deisgned to meet the requirement of carrying 4 passengers, 
-          barbie dolls, and their respective luggage. The team's project name was Project 
+          barbie dolls, and their respective luggage. The team&apos;s project name was Project 
           Pegasus.
           To complete this project, a light weight and rigid frame was designed out of 
           carbon fiber panels and tubes, tapped PEEK inserts, and 3D prints. This can be 
@@ -106,8 +106,8 @@ export default function PegasusCabin() {
         </div>
         <p>
           For the final designs, the payload front and back were designed to be flush with 
-          the quadcopter's walls. The shape of the panel was not able to be as optimized due 
-          to the requirement of being as tall as the barbie's seated height and the geometry 
+          the quadcopter&apos;s walls. The shape of the panel was not able to be as optimized due 
+          to the requirement of being as tall as the barbie&apos;s seated height and the geometry 
           limitations of carbon fiber, but the drag coefficient at an angle of 30 degrees was 
           decreased from 0.452 to 0.215. Over 50% reduction compared to the first iteration.
         </p>
@@ -128,7 +128,7 @@ export default function PegasusCabin() {
         </p>
         </div>
         <p>
-          Following the completion of the aeropanels' design, integration with the other aspects 
+          Following the completion of the aeropanels&apos; design, integration with the other aspects 
           of the payload was necessary. Seats for the passengers were added, as well as a luggage 
           rack printed out of light weight PLA. The door cut out was made to allow the inside 
           of the payload to be accessed while mounted on the drone, but also to meet the realism 

@@ -32,14 +32,6 @@
     "link": "/linear-voltage-regulator"
   },
   {
-    "id": 5,
-    "name": "UAV Integration",
-    "technologies": "Sensors, Controllers, Radio Control",
-    "icon": "RiWindyLine",
-    "image": "/project-assets/quad-integration/WARG_Houston_Square.jpg",
-    "link": "/uav-integration"
-  },
-  {
     "id": 6,
     "name": "Larva Identifier",
     "technologies": "Python, Tensorflow, Project Planning",

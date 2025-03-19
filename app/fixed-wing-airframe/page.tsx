@@ -133,7 +133,7 @@ export default function FixedWingAirframe() {
           decreased by 31%. With the removal of material, the deflection of the spars becomes a greater concern. To get an estimate 
           of the possible deflection, FEA was performed on the spar with 80 N spread across the length of the spar. The deflection 
           was found to be just over 1 mm and the stress was 138 MPa, which is half the yield strength of 6061 aluminum. This gives a 
-          safety factor of 2, while under loading which was already given a buffer. Figures 4 and 5 show the spar's geometry and 
+          safety factor of 2, while under loading which was already given a buffer. Figures 4 and 5 show the spar&apos;s geometry and 
           the FEA results.
         </p>
         <br />
