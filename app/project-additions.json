@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Fixed-Wing Airframe",
+      "technologies": "SolidWorks, FEA, Ansys Fluent, Machining, Project Management, Integration",
+      "icon": "RiRobotFill",
+      "image": "/project-assets/fixed-wing-airframe/WARG_Fixed_Wing_Airframe_Square.png",
+      "link": "/fixed-wing-airframe"
+    },
+    {
+      "id": 2,
+      "name": "Articulated Robot",
+      "technologies": "SolidWorks, Arduino, Servos, C++, 3D Printing, Project Planning",
+      "icon": "RiRobotFill",
+      "image": "/project-assets/robotic-arm/roboticArmCard.jpg",
+      "link": "/articulated-robot"
+    },
+    {
+      "id": 3,
+      "name": "UAV Payload",
+      "technologies": "SolidWorks, Ansys Fluent, Composite Layups, 3D Printing, Project Management",
+      "icon": "RiWindyLine",
+      "image": "/project-assets/cabin/droneAnalysisCard.jpg",
+      "link": "/uav-payload"
+    },
+    {
+      "id": 4,
+      "name": "Linear Voltage Regulator",
+      "technologies": "Altium, Circuits",
+      "icon": "RiMicroscopeFill",
+      "image": "/project-assets/linear-voltage-regulator/linear-voltage-regulator-3d-square.png",
+      "link": "/linear-voltage-regulator"
+    },
+    {
+      "id": 5,
+      "name": "UAV Integration",
+      "technologies": "Sensors, Controllers, Radio Control",
+      "icon": "RiWindyLine",
+      "image": "/project-assets/quad-integration/WARG_Houston_Square.jpg",
+      "link": "/uav-integration"
+    },
+    {
+      "id": 6,
+      "name": "Larva Identifier",
+      "technologies": "Python, Tensorflow, Project Planning",
+      "icon": "RiMicroscopeFill",
+      "image": "/project-assets/larva-indentifier/larvaIdentifierCard.jpg",
+      "link": "/larva-identifier"
+    }
+  ]
