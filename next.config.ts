@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
 
 const nextConfig = {
   output: 'export',
@@ -12,7 +12,5 @@ const nextConfig = {
   // Optional: Change the output directory `out` -> `dist`
   // distDir: 'dist',
 }
- 
-module.exports = {nextConfig, images: {
-  domains: ['evanjanakievski.com'],
-}}
+
+export default nextConfig
