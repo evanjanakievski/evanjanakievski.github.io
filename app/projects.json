@@ -12,7 +12,7 @@
     "name": "Articulated Robot",
     "technologies": "SolidWorks, Arduino, Servos, C++, 3D Printing, Project Planning",
     "icon": "RiRobotFill",
-    "image": "/project-assets/robotic-arm/roboticArmCard.jpg",
+    "image": "/project-assets/articulated-robot/roboticArmCard.jpg",
     "link": "/articulated-robot"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Larva Identifier",
     "technologies": "Python, Tensorflow, Project Planning",
     "icon": "RiMicroscopeFill",
-    "image": "/project-assets/larva-indentifier/larvaIdentifierCard.jpg",
+    "image": "/project-assets/larva-identifier/larvaIdentifierCard.jpg",
     "link": "/larva-identifier"
   }
 ]

@@ -125,7 +125,7 @@ export default function RoboticArm() {
         <div className="flex justify-center">
           <video width="320" height="240" controls>
             <source
-              src="/project-assets/articulated-robot/arm3degreeFreedom.mov"
+              src="/project-assets/articulated-robot/arm3degreeFreedom.MOV"
               type="video/mp4"
             />
           </video>
