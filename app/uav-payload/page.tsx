@@ -136,7 +136,7 @@ export default function PegasusCabin() {
         </p>
         <br />
         <div className="flex justify-center">
-          <Image src="/project-assets/cabin/WARG_Cabin_2.jpg" alt="Payload mounted to quadcopter" width={300} height={200} />
+          <Image src="/project-assets/cabin/WARG_Cabin_2.JPG" alt="Payload mounted to quadcopter" width={300} height={200} />
         </div>
         <div className="flex justify-center">
         <p>

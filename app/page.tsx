@@ -49,7 +49,8 @@ export default function Home() {
         </div>
         <br/>
       </div>
-      <div id="experience">
+      {/*
+      <div id="experience" className="p-8 mt-8 mb-8">
         <div className="max-w-screen-lg mx-auto">
           <h2 className="text-3xl font-bold mb-4">Experience</h2>
           <h2 className="text-xl font-bold">Toyota Motor North America, Inc.</h2>
@@ -60,8 +61,9 @@ export default function Home() {
           <h2 className="text-l">Mechanical Engineer Intern</h2>
         </div>
       </div>
+      */}
       {/* About Section */}
-      <div id="about" className="bg-[#4b4b4b] text-white p-8 mt-8 mb-8">
+      <div id="about" className="p-8 mt-8 mb-8">
         <div className="max-w-screen-lg mx-auto">
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
