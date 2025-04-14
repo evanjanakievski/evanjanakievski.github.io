@@ -88,9 +88,10 @@ export default function Home() {
               </p>
               <br />
               <p>
-                Outside of classes, I have grown an interest in rock climbing, photography, and motorsports! 
-                I also love to bake and cook for my friends and family. Traveling, soccer, and scuba diving 
-                are some of my other favorite things to do.
+                Outside of classes, I have started rock climbing, to take up an interest in photography, and 
+                playing intramural sports! I also love to bake and cook dishes from around the world for my 
+                friends and family. Traveling has been a large part of my life and exploring new places with 
+                my family will always be a part of who I am.
               </p>
               <br />
               <p>
