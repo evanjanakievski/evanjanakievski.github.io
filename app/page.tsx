@@ -75,32 +75,22 @@ export default function Home() {
             />
             <div>
               <p>
-                I&apos;m Evan Janakievski, currently a student at the University of
-                Waterloo, majoring in Mechatronics Engineering. It was important
-                to me to have an education with a strong interdisciplinary,
-                didactic program combined with hands-on learning and it is why I
-                selected the University of Waterloo, along with its renowned
-                co-op program. As a first-year student, I understand that I have
-                a lot to learn, but I believe that my curriculum and
-                extracurriculars will prepare me to be an asset in any position
-                I hold.
+                I&apos;m currently an undergraduate student at the University of Waterloo studying 
+                mechatronics engineering. I have grown an interest in mechanical design, automation 
+                and controls, manufacturing, and electrical engineering. As I have completed co-ops 
+                and participated in extracurriculars, I have been exposed to many areas of engineering 
+                that have introduced me to many technical disciplines.
               </p>
               <br />
               <p>
-                Technology has always fascinated me, and I&apos;m continually eager
-                to broaden my knowledge through different opportunities.
-                Mechanical design, robotics, automation, and software captivate
-                my interest. While I am not focusing on school, I like to pursue
-                personal projects to develop hands-on skills in any field that
-                draws my interest!
+                Currently I am trying to push myself to learn more about PCB design and controls through 
+                personal projects, taking inspiration with things I see at work or the university.
               </p>
               <br />
               <p>
-                My other interests include soccer, tennis, Formula 1, scuba
-                diving, and rock climbing! I also enjoy traveling with my
-                family, cooking, and baking. Photography is something I am
-                slowly getting introduced to, and I love viewing beautiful
-                landscapes.
+                Outside of classes, I have grown an interest in rock climbing, photography, and motorsports! 
+                I also love to bake and cook for my friends and family. Traveling, soccer, and scuba diving 
+                are some of my other favorite things to do.
               </p>
               <br />
               <p>
